@@ -1,0 +1,20 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "A project management application for beginners",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "API",
+    "creation"
+  ],
+  "author": "Tajinder singh",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.9.4"
+  }
+}
