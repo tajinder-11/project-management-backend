@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import healthchechRouter from "./routes/healthcheck.routes.js";
 
 const app = express();
 
@@ -15,5 +16,7 @@ app.use(
     allowedHeaders: ["Authorization", "Content-Type"],
   }),
 );
+
+app.use("/api/v1/healthcheck/", healthchechRouter);
 
 export default app;
